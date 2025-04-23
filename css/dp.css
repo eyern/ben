@@ -4,11 +4,11 @@
 -----------------------------------------*/
 :root {
   --white-color:                  #FFFFFF;
-  --primary-color:                #247cff;
+  --primary-color:                #0d5dd4;
   --section-bg-color:             #F9F9F9;
   --dark-color:                   #000000;
   --title-color:                  #565758;
-  --p-color:                      #717275;
+  --p-color:                      #000;
   --border-color:                 #eaeaea;
 
   --body-font-family:             'Open Sans', sans-serif;
@@ -44,7 +44,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: var(--dark-color);
+  color:#0d5dd4;
   line-height: inherit;
 }
 
@@ -90,7 +90,7 @@ h6 {
 p {
   color: var(--p-color);
   font-size: var(--p-font-size);
-  font-weight: var(--font-weight-light);
+  font-weight: 600;
   letter-spacing: 0.5px;
 }
 
