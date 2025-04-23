@@ -32,30 +32,11 @@
         }
     });
 
-    //clients logo
-    $(".clients-logo").slick({
-      infinite: true,
-      arrows: false,
-      autoplay: true,
-      slidesToShow: 6,
-      slidesToScroll: 6,
-      autoplaySpeed: 6e3,
-      responsive: [
-          {
-              breakpoint: 1024,
-              settings: { slidesToShow: 6, slidesToScroll: 6, infinite: true, dots: true },
-          },
-          { breakpoint: 900, settings: { slidesToShow: 4, slidesToScroll: 4 } },
-          { breakpoint: 600, settings: { slidesToShow: 4, slidesToScroll: 4 } },
-          { breakpoint: 480, settings: { slidesToShow: 2, slidesToScroll: 2 } },
-      ],
-  });
-
     // Banner Carousel
     //naem azam
     var myCarousel = document.querySelector('#myCarousel')
     var carousel = new bootstrap.Carousel(myCarousel, {
-      interval: 2500,
+      interval: 1000,
     })
 
     // REVIEWS NAVIGATION
